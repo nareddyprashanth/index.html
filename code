@@ -1,0 +1,146 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>My Blog</title>
+    </head>
+    <body>
+        <table bgcolor="grey" border="1" width="100%">
+            <tr align="center" bgcolor="lightyellow">
+                <td colspan="4">
+                    <h1>Nareddy Prashanth</h1>
+                    <p>A space to share knowledge and ideas about me</p>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <a href="#"><button>Home</button></a>
+                </td>
+                <td>
+                    <a href="#section1"><button>About Me</button></a>
+                </td>
+                <td>
+                    <a href="#section2"><button>Recent Posts</button></a>
+                </td>
+                <td>
+                    <a href="#section3"><button>Contact Me</button></a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table width="90%" align="center" bgcolor="black" border="1" cellpadding="10px">
+            <tr bgcolor="lightgreen">
+                <td>
+                    <h2>Welcome to my blog</h2>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;"A space where stories unfold and ideas come alive. Dive in and explore the journey!</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp; I share insights, ideas, and experiences designed to inspire, inform, and connect. Whether you're seeking motivation, knowledge, or just a fresh perspective, you've come to the right place. Dive in, explore, and let's embark on this journey together!
+
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="lightcyan" id="section1">
+                <td>
+                    <h2>About Me</h2>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I am Nareddy Prashanth, a recent graduate with a passion for writing and sharing ideas. I created this blog to connect with like-minded people and to document my journey of learning and exploration.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;My interests include technology, books, and personal development. I believe in lifelong learning and strive to grow every day. Stay tuned for exciting posts!</p>
+                </td>
+            </tr>
+            <tr bgcolor="lightpink" id="section2">
+                <td>
+                    <h2>Recent Posts</h2>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>Post 1</summary>
+                                <h2>My Journey in Blogging</h2>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Starting my blogging journey has truly been one of the most fulfilling experiences I've had. What began as a simple way to share my thoughts and passions soon turned into a platform for personal expression and growth.Writing my first post was both daunting and exciting, as I realized the joy of translating my ideas into words and connecting with like-minded readers. Over time, my blog has grown into a space for exploring diverse topics, from personal development and travel to technology and creative writing. Each post has been a valuable learning experience, teaching importance of consistency, creativity, and engaging withmy audience.</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Embarking on my blogging journey has been one of the most enriching experiences of my life. It all began as a simple outlet to share my thoughts and passions with the world, but it quickly transformed into a platform for self-expression and learning. Writing my first post was nerve-wracking yet exhilarating; I discovered the joy of putting my ideas into words and connecting with like-minded readers. Over time, my blog evolved into a space where I could explore diverse topics, from personal growth and travel to technology and creative writing. Each post became a stepping stone, teaching me the value of consistency, creativity, and engagement.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Post 2</summary>
+                                <h2>Tips for Staying Productive</h2>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Staying productive begins with setting clear goals that provide a sense of direction and breaking them down into smaller, manageable tasks. Prioritizing these tasks ensures that you focus on the most critical activities aligned with your objectives, avoiding wasted effort on less important matters. Planning ahead by creating a daily or weekly schedule helps you organize your time effectively and minimizes decision fatigue. To maintain focus, it’s essential to reduce distractions by silencing notifications, decluttering your workspace, and identifying other potential interruptions.</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Staying organized further boosts efficiency by ensuring that your tools, resources, and environment are in order, making it easier to access what you need. Your physical and mental well-being also play a crucial role, so prioritizing adequate sleep, regular exercise, and a balanced diet is vital for sustained energy and concentration. Lastly, tracking your progress helps you reflect on achievements, learn from setbacks, and stay motivated as you celebrate milestones and refine your approach to productivity.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Post 3</summary>
+                                <h2>Lessons Learned from Failure</h2>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Failure offers valuable lessons that can lead to growth and improvement. It teaches resilience by showing the importance of perseverance in the face of setbacks. Failures highlight weaknesses or gaps in knowledge, providing opportunities to learn and develop new skills. They encourage self-reflection, fostering a better understanding of personal limitations and areas for improvement..</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp; Failure builds humility, reminding us that success often requires effort, adaptability, and patience. It promotes creativity by pushing us to explore alternative approaches or solutions. Importantly, failure shifts our perspective, helping us appreciate the process of learning rather than solely focusing on the outcome. Embracing failure as a stepping stone ultimately paves the way for greater confidence, adaptability, and long-term success.</p>
+                            </details>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table bgcolor="lightblue" border="1" width="80%" cellpadding="10px" align="center">
+            <tr id="section3">
+                <td>
+                    <h2>
+                        Contact Me
+                    </h2>
+                    <p>I'd love to hear from you! Feel free to reach out to me for collaborations, suggestions, or just to say hi.</p>
+                    <p>Email: <a href="mailto:prashantreddynareddy@gmail.com">prashantreddynareddy@gmail.com</a></p>
+                    <p>Follow me on social media:</p>
+                    <ul>
+                        <li><a href="https://www.Facebook.com">FaceBook</a></li>
+                        <li><a href="https://github.com/nareddyprashanth">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/nareddy-prashanth-reddy-00a74725b">Linkedin</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <fieldset>
+            <legend><h2>Fill the Form to send details</h2></legend>
+            <table width="60%" align="center" bgcolor="lightgrey" cellpadding="5px">
+                <tr>
+                    <td align="right">
+                        <label for="name">Name:&nbsp;&nbsp;</label> 
+                    </td>
+                    <td>
+                        <input id="name" type="text" placeholder="Enter Name" size="40px" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="email">Email:&nbsp;&nbsp; </label>
+                    </td>
+                    <td>
+                        <input id="email" type="email" placeholder="Enter Email" size="40px" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="textarea">Enter Query: &nbsp;&nbsp; </label>
+                    </td>
+                    <td>
+                        <textarea id="textarea" rows="10" cols="45">
+                            Enter some text
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <input type="submit">&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;<input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <table bgcolor="lightpink" align="center" cellpadding="20px" width="100%">
+            <tr align="center">
+                <td>
+                    &copy; 2024 My Blog | All rights reserved.
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
